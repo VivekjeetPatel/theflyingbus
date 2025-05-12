@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bus body -->
+  <rect x="12" y="32" width="72" height="40" rx="8" fill="url(#gradient)" />
+  
+  <!-- Windows -->
+  <rect x="20" y="40" width="12" height="16" rx="2" fill="white" fillOpacity="0.9" />
+  <rect x="36" y="40" width="12" height="16" rx="2" fill="white" fillOpacity="0.9" />
+  <rect x="52" y="40" width="12" height="16" rx="2" fill="white" fillOpacity="0.9" />
+  
+  <!-- Wheels -->
+  <circle cx="28" cy="76" r="8" fill="#1E3A8A" />
+  <circle cx="68" cy="76" r="8" fill="#1E3A8A" />
+  
+  <!-- Wings -->
+  <path d="M4 48C12 40 20 36 28 36C36 36 44 40 52 48" stroke="#3B82F6" strokeWidth="4" />
+  <path d="M44 48C52 40 60 36 68 36C76 36 84 40 92 48" stroke="#3B82F6" strokeWidth="4" />
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="12" y1="32" x2="84" y2="72" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#3B82F6" />
+      <stop offset="100%" stopColor="#2563EB" />
+    </linearGradient>
+  </defs>
+</svg> 
